@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Kavya Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Kavya <span>Muppaneni</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#projects">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+       
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="image.png" alt="Kavya's Image">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Kavya</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">A passionate Computer Science Engineering student at KL University with a strong interest in future technologies, Artificial Intelligence, and web development. I strive for excellence in everything I do.</p>
+                <div class="social-links">
+                    <a href="https://github.com/Kavya132" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/kavya132" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <button>Hire me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        
+        <div class="about-container">
+            <br> <br>
+            <h1 data-aos="fade-down" data-aos-duration="1500">About Me</h1>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right" data-aos-duration="1500">
+                    <p>I am <span>Kavya Muppaneni</span>, a passionate <span>Computer Science Engineering</span> student at <span>KL University</span>, with a strong interest in <span>future technologies, Artificial Intelligence, and web development</span>. I strive for excellence in everything I do.</p>
+                    <p>I have hands-on experience as a <span>Software Development Intern</span> at <span>Lineysha and Thevan Software Solutions</span>, where I optimized backend services for an appointment booking system. My technical expertise includes <span>MERN stack, Flask, TensorFlow, and MySQL</span>, allowing me to build scalable and efficient applications.</p>
+                    <p>I am also a <span>Merit Scholar</span>, receiving a <span>75% fee concession</span> for my outstanding academic performance, and have <span>led college hackathon teams</span> in innovative projects.</p>
+                </div>
+                <div class="about-image" data-aos="fade-left" data-aos-duration="1500">
+                    <img src="main.png" alt="Kavya's Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="skills-section" id="skills">
+        <div class="skills-container">
+            <h1 data-aos="fade-down" data-aos-duration="1500">My Skills</h1>
+            <div class="skills-grid">
+                <div class="skill-card" data-aos="fade-up" data-aos-duration="1500">
+                    <h2>Technical Skills</h2>
+                    <ul>
+                        <li><span>Languages:</span> C, C++, Python, Java, JavaScript, PHP, HTML, CSS</li>
+                        <li><span>Frameworks:</span> Flask, React.js, Express.js</li>
+                        <li><span>Databases:</span> MySQL, MongoDB, PhpMyAdmin</li>
+                        <li><span>Developer Tools:</span> Git, GitHub, Eclipse, VS Code</li>
+                        <li><span>Machine Learning:</span> TensorFlow, CNNs, Data Augmentation</li>
+                    </ul>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <h2>Soft Skills</h2>
+                    <ul>
+                        <li>Problem-solving</li>
+                        <li>Teamwork and Collaboration</li>
+                        <li>Design Thinking</li>
+                        <li>Decision Making</li>
+                        <li>Leadership</li>
+                    </ul>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <h2>Certifications</h2>
+                    <ul>
+                        <li><span>AWS Certified Cloud Practitioner</span> by AWS Academy</li>
+                        <li><span>Salesforce Certified AI Associate</span> by Salesforce</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="projects-section" id="projects">
+        <div class="projects-container">
+            <h1 data-aos="fade-down" data-aos-duration="1500">My Projects</h1>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <h2>
+                        <a href="https://github.com/Kavya132/service-snap" target="_blank" class="project-link">
+                            Service Snap - Home Service Platform
+                        </a>
+                    </h2>
+                    <p>Implemented user authentication and task management features using Flask and JavaScript. Integrated booking, tracking, and feedback systems.</p>
+                    <span>Tech Stack: Flask, JavaScript</span>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <h2>
+                        <a href="https://github.com/Kavya132/mern-bank_finance" target="_blank" class="project-link">
+                            Banking System
+                        </a>
+                    </h2>
+                    <p>Designed a MERN stack-based banking system with CRUD operations and secure login for admin and users. Implemented dashboards for managing transactions and loan applications.</p>
+                    <span>Tech Stack: MERN Stack</span>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1500">
+                    <h2>Bone Fracture Detection</h2>
+                    <p>Built a bone fracture detection model using Convolutional Neural Networks (CNNs) for image classification. Applied data augmentation and early stopping to improve accuracy.</p>
+                    <span>Tech Stack: TensorFlow, Python</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h1 data-aos="fade-down" data-aos-duration="1500">Contact Me</h1>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-duration="1500">
+                    <p><i class="fa-solid fa-envelope"></i> kavyamuppaneni32@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> (+91) 63001 66281</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Vijayawada, Andhra Pradesh, India</p>
+                </div>
+                <div class="contact-form" data-aos="fade-left" data-aos-duration="1500">
+                    <form action="#">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:1});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
